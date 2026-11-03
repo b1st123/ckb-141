@@ -39,5 +39,5 @@ double A(const double x, const double y, const double z)
 
 double B(const double x, const double y, const double z)
 {
-    return y*sin((A(x,y,z))*z*z*cos(2*z) )-1;
+    return y*sin((A(x,y,z))*pow(z,2)*cos(2*z) )-1;
 }
