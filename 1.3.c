@@ -18,13 +18,13 @@ double getDouble();
  */
 int main()
 {
-    printf("Enter the mass (g)\n");
+    printf("введите массу (g)\n");
     double m = getDouble();
-    printf("Enter the energy (J)\n");
+    printf("введите энергию (J)\n");
     double Q = getDouble();
-    printf("Enter the specific heat capacity (J/(kg*C))\n");
+    printf("введите удельную теплоемкость (J/(kg*C))\n");
     double c = getDouble();
-    printf("Temperature change is %lf\n", deltaTemperature(m, Q, c));
+    printf("смена температуры %lf\n", deltaTemperature(m, Q, c));
     return 0;
 }
 double deltaTemperature(const double m, const double Q, const double c)
